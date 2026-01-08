@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "delta-sigma-simulator"
+version = "0.0.1"
+authors = [{ name = "Caro Meysmans", email = "caro.meysmans@gmail.com" }]
+description = "Simulator for delta-sigma modulators"
+requires-python = ">=3.8"
+classifiers = ["Programming Language :: Python :: 3"]
+
+[project.urls]
+Homepage = "https://github.com/bou4/delta-sigma-simulator"
+Issues = "https://github.com/bou4/delta-sigma-simulator/issues"
